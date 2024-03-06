@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  /* overflow-x: hidden; */
+  max-width: 100vw;
+}
+body {
+  background-color: #121011;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section {
+  background-color: black;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+
+
+/* ----------- Header ---------- */
+.header_logo {
+  width: 20%;
+}
+
+
+
+/* ---------- section1 -------- */
+.section1 {
+  background: url('/public/images/section1/Toit-Pune-brewpub-10 1 (1).png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.section1_toit {
+  margin: 200px 0 30px 0 ;
+}
+
+@media only screen and (max-width: 600px) {
+  .section1_toit {
+    margin: 250px 0 30px 0 ;
+  }
+}
+
+.section1_beer {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+
+
+
+/* -------- section 2 ----------- */
+
+.section2_img1 {
+  background: url('/public/images/section2/Rectangle 4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.section2_img2 {
+  background: url('/public/images/section2/Rectangle 5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.section2_img3 {
+  background: url('/public/images/section2/Rectangle 6.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+
+
+/* --------- Section3 ------------ */
+.section3 {
+  position: relative;
+  min-height: 500px;
+}
+@media only screen and (max-width: 1050px) {
+  .section3 {
+    min-height: 700px;
+  }
+  .section3_paragraph {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width:600px) {
+  .section3 {
+    min-height: 1000px;
+  }
+  
+}
+
+.section3_image { 
+  width: 100%;
+  object-fit: cover;
+}
+.section3_overlay {
+  padding: 48px;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+.section3_heading {
+  font-size: 70px;
+  line-height: 98.19%;
+  padding: 1rem;
+}
+.section3_paragraph {
+  font-size: 20px;
+  padding: 1rem;
+}
+
+
+/* -------------- Section4 ------------- */
+.section4_cover {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  opacity: 0.4;
+}
+.section4_glass {
+  left: -15%;
+  width: 650px;
+}
+.section4_bottle {
+  right: -25%;
+  width: 850px;
+}
+@media only screen and (max-width: 1475px) {
+  .section4_glass {
+    left: -20%;
+    width: 500px;
+  }
+  .section4_bottle {
+    right: -20%;
+    width: 650px;
+  }
+}
+@media only screen and ( max-width: 1300px) {
+  .section4_glass {
+    left: -20%;
+    width: 500px;
+  }
+  .section4_bottle {
+    right: -25%;
+    width: 650px;
+  }
+}
+@media only screen and (max-width:1100px) {
+  .section4_glass {
+    display: none;
+  }
+  .section4_bottle {
+    display: none;
+  }  
+}
+
+
+/* --------------- Section5 --------------- */
+.section5_heading1 {
+  color: #CA9E67;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 98.19%;
+}
+
+.section5_heading2 {
+  font-weight: 300;
+  font-size: 50px;
+}
+.section5_button {
+  background: #FFA54F;
+  border-radius: 33px;
+  width: 150px;
+  line-height: 98.19%;
+}
+
+
+
+/* ------------------ Section6 ------------------ */
+.section6 {
+  position: relative;
+}
+.section6_image {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+  filter: grayscale(100%);
+}
+.section6_overlay {
+  width: 30%;
+}
+.section6_overlay_logo {
+  width: 10%;
+}
+
+
+
+/* -------------- footer ---------------- */
+footer {
+  background: url('/public/images/footer/Rectangle 137.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: fit-content;
+}
+
+.footer_container {
+  overflow: visible;
+}
+
+.text_footer_1 {
+  color: #CA9E67 !important;
+  font-weight: 700;
+}
+.text_footer_2 {
+  color: #DC9696 !important;
+  font-weight: 700;
+  display: inline;
+}
+.address {
+  line-height: 90%;
+  overflow: hidden;
+}
+
+
+.footer_arrow_1 {
+  width: 20px;
+}
+.footer_arrow_2 {
+  width: 25px;
+}
+.footer_newsletter_input {
+  background: black;
+  border: 2px solid #ca9e67;
+  outline: none;
+  padding: 0.5rem 1rem;
+  width: 350px;
+}
+.footer_newsletter_input::placeholder {
+  color: #DC9696;
+  opacity: 0.9;
+}
+.footer_newsletter_button {
+  background: #ca9e67;
+}
+.footer_glass {
+  bottom: -200px;
+  width: 100%;
+  position: absolute;
+}
